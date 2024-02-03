@@ -2,7 +2,7 @@
 GIT Assignment
 
 Steps:
-
+Q1:
 # Created the repository and cloned it to the local machine
 # Creted new dev branch using cmd  - git branch dev
 # Added the code given in the assignment section where the divide function bug was not fixed and the square root function was added as a comment.
@@ -70,5 +70,17 @@ git tag -a v2.0 -m "Version 2.0 release"
 
 # Push changes and tags to the remote repository
 git push origin main --tags
+
+Q2:
+
+#Install LFS for large file storage.
+git LFS install
+
+# Track the large file.
+git lfs track "*.pdf"
+
+git add .
+
+git commit -m "Large file storage"
 
 
